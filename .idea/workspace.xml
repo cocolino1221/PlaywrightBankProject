@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208694c8-7af5-477c-8c05-ce7cd1be34d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePageBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomePageBankTest.java" afterDir="false" />
+    <list default="true" id="208694c8-7af5-477c-8c05-ce7cd1be34d1" name="Changes" comment="First push playwright with java banking app">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePageBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePageBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageBankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +22,37 @@
       </list>
     </option>
   </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="main" />
+    <option name="OPTIONS">
+      <set>
+        <option value="ROOT" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;cocolino1221&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="3f6b80f9-97ef-44ef-833e-a2256c749a8b" />
+        <option name="url" value="https://github.com/cocolino1221/PlaywrightBankProject.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -44,16 +67,20 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.HomePageBankTest.executor": "Run",
-    "JUnit.HomePageBankTest.openBrowser.executor": "Debug",
+    "JUnit.HomePageBankTest.openBrowser.executor": "Run",
     "JUnit.HomePageBankTest.openPage.executor": "Run",
     "Maven.examples [clean,test].executor": "Run",
     "Maven.examples [clean].executor": "Run",
     "Maven.examples [compile].executor": "Run",
+    "Maven.examples [install].executor": "Run",
+    "Maven.examples [package].executor": "Run",
     "Maven.examples [test].executor": "Run",
     "Maven.examples [validate].executor": "Run",
+    "Maven.examples [verify].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.HomePageBankTest.openBrowser.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "project.structure.last.edited": "Modules",
@@ -70,19 +97,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.HomePageBankTest.openBrowser">
-    <configuration name="HomePageBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HomePageBank" />
-      <module name="examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HomePageBankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examples" />
       <option name="PACKAGE_NAME" value="" />
@@ -124,13 +138,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomePageBankTest.openBrowser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="examples" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageBankTest" />
+      <option name="METHOD_NAME" value="openBrowser" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HomePageBankTest.openBrowser" />
         <item itemvalue="JUnit.HomePageBankTest" />
-        <item itemvalue="JUnit.HomePageBankTest.openPage" />
-        <item itemvalue="Application.HomePageBank" />
+        <item itemvalue="TestNG.HomePageBankTest.openBrowser" />
         <item itemvalue="TestNG.HomePageBankTest.first" />
+        <item itemvalue="JUnit.HomePageBankTest.openPage" />
       </list>
     </recent_temporary>
   </component>
@@ -150,17 +176,61 @@
       <option name="presentableId" value="Default" />
       <updated>1698517178474</updated>
     </task>
+    <task id="LOCAL-00001" summary="First push playwright with java banking app">
+      <option name="closed" value="true" />
+      <created>1706623569345</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706623569345</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First push playwright with java banking app">
+      <option name="closed" value="true" />
+      <created>1706624706304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706624706304</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First push playwright with java banking app">
+      <option name="closed" value="true" />
+      <created>1706624843062</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706624843062</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First push playwright with java banking app">
+      <option name="closed" value="true" />
+      <created>1706624871446</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706624871447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First push playwright with java banking app" />
+    <option name="LAST_COMMIT_MESSAGE" value="First push playwright with java banking app" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/HomePageBankTest.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.example.HomePageBank" memberName="playwright" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
