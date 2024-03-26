@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="208694c8-7af5-477c-8c05-ce7cd1be34d1" name="Changes" comment="First push playwright with java banking app">
+    <list default="true" id="208694c8-7af5-477c-8c05-ce7cd1be34d1" name="Changes" comment="register new user">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePageBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePageBank.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HomePageBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageBankTest.java" afterDir="false" />
     </list>
@@ -64,36 +63,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.HomePageBankTest.executor": "Run",
-    "JUnit.HomePageBankTest.openBrowser.executor": "Run",
-    "JUnit.HomePageBankTest.openPage.executor": "Run",
-    "Maven.examples [clean,test].executor": "Run",
-    "Maven.examples [clean].executor": "Run",
-    "Maven.examples [compile].executor": "Run",
-    "Maven.examples [install].executor": "Run",
-    "Maven.examples [package].executor": "Run",
-    "Maven.examples [test].executor": "Run",
-    "Maven.examples [validate].executor": "Run",
-    "Maven.examples [verify].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.HomePageBankTest.openBrowser.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "tms.main"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.HomePageBankTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HomePageBankTest.loginFunction.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HomePageBankTest.openBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HomePageBankTest.openPage.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HomePageBankTest.registerNewUser.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.examples [clean,test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.examples [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.examples [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.examples [exec:java,-e,-D...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.examples [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.examples [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.examples [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.examples [validate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.examples [verify].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.HomePageBankTest.openBrowser.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn compile exec:java -D exec.mainClass=&quot;org.example.App&quot;" />
       <command value="mvn clean" />
       <command value="mvn clean test" />
+      <command value="mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;codegen demo.playwright.dev/todomvc&quot;" />
+      <command value="mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=codegen demo.playwright.dev/todomvc" />
+      <command value="mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=" />
+      <command value="mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;codegen&quot;" />
     </option>
   </component>
   <component name="RunManager" selected="JUnit.HomePageBankTest.openBrowser">
@@ -102,6 +108,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HomePageBankTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomePageBankTest.loginFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="examples" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HomePageBankTest" />
+      <option name="METHOD_NAME" value="loginFunction" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,24 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageBankTest.openPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageBankTest.registerNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examples" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HomePageBankTest" />
-      <option name="METHOD_NAME" value="openPage" />
+      <option name="METHOD_NAME" value="registerNewUser" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageBankTest.first" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="examples" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HomePageBankTest" />
-      <option name="METHOD_NAME" value="first" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,10 +157,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HomePageBankTest.openBrowser" />
+        <item itemvalue="JUnit.HomePageBankTest.registerNewUser" />
+        <item itemvalue="JUnit.HomePageBankTest.loginFunction" />
         <item itemvalue="JUnit.HomePageBankTest" />
         <item itemvalue="TestNG.HomePageBankTest.openBrowser" />
-        <item itemvalue="TestNG.HomePageBankTest.first" />
-        <item itemvalue="JUnit.HomePageBankTest.openPage" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706624871447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Open page and login test">
+      <option name="closed" value="true" />
+      <created>1707807519615</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707807519616</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +236,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First push playwright with java banking app" />
-    <option name="LAST_COMMIT_MESSAGE" value="First push playwright with java banking app" />
+    <MESSAGE value="Open page and login test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Open page and login test" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
