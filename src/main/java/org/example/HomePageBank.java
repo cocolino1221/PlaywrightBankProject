@@ -9,7 +9,7 @@ public class HomePageBank {
     Playwright playwright = Playwright.create();
     Browser browser = playwright.firefox().launch();
     Page page = browser.newPage();
-    Locator registerButton = page.locator("[name='Register']");
+    Locator registerButton = page.locator("[href='register.htm']");
 
 
 

@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="208694c8-7af5-477c-8c05-ce7cd1be34d1" name="Changes" comment="register new user">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HomePageBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HomePageBank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomePageBankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomePageBankTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +100,7 @@
       <command value="mvn exec:java -e -D exec.mainClass=com.microsoft.playwright.CLI -D exec.args=&quot;codegen&quot;" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HomePageBankTest.openBrowser">
+  <component name="RunManager" selected="JUnit.HomePageBankTest.registerNewUser">
     <configuration name="HomePageBankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="examples" />
       <option name="PACKAGE_NAME" value="" />
@@ -156,8 +154,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HomePageBankTest.openBrowser" />
         <item itemvalue="JUnit.HomePageBankTest.registerNewUser" />
+        <item itemvalue="JUnit.HomePageBankTest.openBrowser" />
         <item itemvalue="JUnit.HomePageBankTest.loginFunction" />
         <item itemvalue="JUnit.HomePageBankTest" />
         <item itemvalue="TestNG.HomePageBankTest.openBrowser" />
@@ -220,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707807519616</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="register new user">
+      <option name="closed" value="true" />
+      <created>1711433240370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711433240370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,7 +243,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First push playwright with java banking app" />
     <MESSAGE value="Open page and login test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Open page and login test" />
+    <MESSAGE value="register new user" />
+    <option name="LAST_COMMIT_MESSAGE" value="register new user" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
